@@ -1,0 +1,100 @@
+/*********************************************************
+ * Homework 5: graph traversal
+ * Comp 15 Fall 2018 
+ * 
+ * Author: Matias Korman
+ *Andrew Cervantes
+ *********************************************************/
+
+This homework assignment contains a partial implementation of Graph BFS traversal.
+
+
+main.cpp 			: main driver of the project. Creates and 'run's an instance of SixDegrees 
+Graph.cpp 		 	: graph class with extra helping tools to run DFS
+Graph.h 		 	: interface of graph class above
+LinkedList.cpp 		: simple template linked list class used for DFS
+LinkedList.h 		: interface of Linked list class above
+NodeType.h 			: interface of Nodetype class (a simple struct used in the linked list class)
+Stack.cpp 			: simple template stack class used for DFS
+Stack.h 			: interface of Stack class above
+Queue.cpp 			: simple template queue class used for DFS
+Queue.h 			: interface of Queue class above
+actors.txt			: sample list of actors and the movies they have been in
+test_input.txt		: sample test input for the algorithm
+expected_output.txt : output that your assignment should give on test_input.txt
+README 				: this file
+
+Note: the code is not complete on purpose. Students must create several files as implement some functions in Graph
+      class as well as the main driver.
+Goal:
+The Goal of this program was to properly implement a Graph and
+Breadth First Search to implement the SixDegrees class and find
+the closest connection between two actors.
+
+Acknowledgements:
+Paul Lutkus and Jonathan Vithoontien helped me conceptually set
+up how the actor class is constructed.
+
+Files not listed above:
+Actor.h: Header file for the Actor class, which stored all 
+functions relating to the Actor objects.
+Actor.cpp: File containing all of the actor functions,
+allowing for the creaton, search, and checking of the Actors.
+SixDegrees.h: Header file storing the functions relating to the
+running of the Breadth First Search and the population of the
+graph.
+SixDegrees.cpp: File containing the functions that populated the
+graph and worked through the input and called the BFS function.
+test-graph.cpp: A txt file with different inputs that I used to 
+test the Graph.cpp file
+
+To compile:
+Run the Makefile provided with the files to compile the program
+
+To execute: Run the command ./sixdegrees to run the main program.
+Run the command ./graphtest to run test-graph.cpp and test the
+Graph class. 
+
+
+To complete the 6 degrees class, the best thing to do was use a 
+Graph to store the data. The Graph is a good data structure due
+to its ability to sort through interlinking dependencies that
+no other data structure that we know does. The LinkedList was used
+due to its quicker inserting than a dynamic array, allowing it to
+be more efficient for this program. A queue was used for the BFS 
+since it was more convienent for that to have a data structure that
+popped the first one inserted instead of the last one inserted. This
+is not the case for the structure used for report_path, which is why
+it was more beneficial to use a stack. The most important algorithm
+for this project was the breadth first search. This function traverses
+the Graph on a mark, neighbor, update cycle so that all the Vertices of
+the graph are looked at for the search. After this, the predecessor array
+and queues are constructed so that the shortest path between two vertices
+are found. This useful in a variety of topics, including the famous 6
+degrees of seperation used here.
+
+To test Graph.cpp big 3:
+To test the destructor I ran valgrind on the ./sixdegrees execute.
+To test the Copy Constructor and Assignment Operator I used the
+test-graph.cpp function, which checks the two functions for both
+empty and filled graphs.
+
+To test Actor.cpp and SixDegrees.cpp and the rest of Graph.cpp
+To test the BFS and populateGraph functions I tested a variety of 
+actors.txt files as well as the test_input file and cin statements.
+One of the errors that this enlightened me to was when the actor was
+not in the Graph. It became apparent that I needed to get a new actor
+and change the inputs into BFS. With more input statements I noticed
+that the if statement I used needed to be a while loop in case multiple
+actors in a row were not in the Graph. Another specific case was if both
+inputs are the same name. In this case, I replaced the second of the two
+with a new line and continued. Another error in the BFS was that the
+search had no way to determine when there was no connection. After 
+theorizing a bit I noticed that the only way to to that all of the
+vertices have been checked is when the primary queue is empty. This was
+solved by adding a cas that couts "no connection" and returns out of
+the search without accessing the reportPath, which would have broken.
+
+Actor.cpp was tested using the same methods as above, as each of these
+used the Actor.cpp class.
+

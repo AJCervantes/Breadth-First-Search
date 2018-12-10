@@ -1,0 +1,130 @@
+Enter two actor names separated by a new line.
+Press ctrl-D to quit
+Hilary Duff and Steve Martin have a costar distance of 1
+Hilary Duff was in Cheaper by the Dozen with Steve Martin
+
+Allison Janney and Jamie Foxx: No connection
+
+Steve Martin and Anjelica Huston have a costar distance of 2
+Steve Martin was in Cheaper by the Dozen with Hilary Duff
+Hilary Duff was in Material Girls with Anjelica Huston
+
+Alicia Silverstone and Sam Elliott have a costar distance of 3
+Alicia Silverstone was in Batman & Robin with George Clooney
+George Clooney was in O Brother, Where Art Thou? with John Goodman
+John Goodman was in The Big Lebowski with Sam Elliott
+
+Alicia Silverstone and Meryl Streep have a costar distance of 3
+Alicia Silverstone was in Blast from the Past with Christopher Walken
+Christopher Walken was in America’s Sweethearts with Stanley Tucci
+Stanley Tucci was in Julie & Julia with Meryl Streep
+
+Sorry, Laney Strange is not in the list
+
+Robin Williams and John Cusack have a costar distance of 2
+Robin Williams was in Good Will Hunting with Minnie Driver
+Minnie Driver was in Grosse Pointe Blank with John Cusack
+
+Sorry, Jesse Garcia is not in the list
+
+Jeff Bridges and Caroline Goodall have a costar distance of 3
+Jeff Bridges was in The Big Lebowski with Philip Seymour Hoffman
+Philip Seymour Hoffman was in Red Dragon with Ralph Fiennes
+Ralph Fiennes was in Schindler’s List with Caroline Goodall
+
+Carrie Fisher and Keith David have a costar distance of 4
+Carrie Fisher was in The Blues Brothers with Dan Aykroyd
+Dan Aykroyd was in Tommy Boy with David Spade
+David Spade was in The Emperor’s New Groove with John Goodman
+John Goodman was in The Princess and the Frog with Keith David
+
+Tom Cruise and Jennifer Lawrence have a costar distance of 4
+Tom Cruise was in The Outsiders with Patrick Swayze
+Patrick Swayze was in Road House with Sam Elliott
+Sam Elliott was in Ghost Rider with Wes Bentley
+Wes Bentley was in The Hunger Games with Jennifer Lawrence
+
+Tom Hardy and Sam Elliott have a costar distance of 3
+Tom Hardy was in The Dark Knight Rises with Michael Caine
+Michael Caine was in The Weather Man with Nicolas Cage
+Nicolas Cage was in Ghost Rider with Sam Elliott
+
+Emma Watson and Sir Ian McKellen have a costar distance of 1
+Emma Watson was in Beauty and the Beast with Sir Ian McKellen
+
+Anne Hathaway and Kevin Bacon have a costar distance of 3
+Anne Hathaway was in The Princess Diaries with Caroline Goodall
+Caroline Goodall was in Hook with Dustin Hoffman
+Dustin Hoffman was in Sleepers with Kevin Bacon
+
+Joseph Gordon-Levitt and Drew Barrymore have a costar distance of 3
+Joseph Gordon-Levitt was in 500 Days of Summer with Zooey Deschanel
+Zooey Deschanel was in Yes Man with Bradley Cooper
+Bradley Cooper was in He’s Just Not That Into You with Drew Barrymore
+
+Stanley Tucci and David Cross have a costar distance of 3
+Stanley Tucci was in America’s Sweethearts with John Cusack
+John Cusack was in High Fidelity with Jack Black
+Jack Black was in The Cable Guy with David Cross
+
+Pierce Brosnan and Chris Pratt have a costar distance of 4
+Pierce Brosnan was in Mamma Mia! with Meryl Streep
+Meryl Streep was in Julie & Julia with Stanley Tucci
+Stanley Tucci was in The Hunger Games with Jennifer Lawrence
+Jennifer Lawrence was in Passengers with Chris Pratt
+
+Dustin Hoffman and Pierce Brosnan have a costar distance of 2
+Dustin Hoffman was in Hook with Robin Williams
+Robin Williams was in Mrs. Doubtfire with Pierce Brosnan
+
+Clint Eastwood and Jonah Hill have a costar distance of 3
+Clint Eastwood was in Space Cowboys with Donald Sutherland
+Donald Sutherland was in A Time to Kill with Matthew McConaughey
+Matthew McConaughey was in The Wolf of Wall Street with Jonah Hill
+
+Emma Thompson and Paul Rudd have a costar distance of 2
+Emma Thompson was in Harry Potter and the Prisoner of Azkaban with Emma Watson
+Emma Watson was in The Perks of Being a Wallflower with Paul Rudd
+
+Danny Glover and Channing Tatum have a costar distance of 3
+Danny Glover was in The Royal Tenenbaums with Owen Wilson
+Owen Wilson was in Zoolander with Vince Vaughn
+Vince Vaughn was in 21 Jump Street with Channing Tatum
+
+Jodie Foster and Martin Freeman have a costar distance of 4
+Jodie Foster was in Taxi Driver with Robert De Niro
+Robert De Niro was in Sleepers with Kevin Bacon
+Kevin Bacon was in X: First Class with January Jones
+January Jones was in Love Actually with Martin Freeman
+
+Timothy Spall and Demi Moore have a costar distance of 3
+Timothy Spall was in Harry Potter and the Prisoner of Azkaban with Dame Maggie Smith
+Dame Maggie Smith was in Sister Act with Whoopi Goldberg
+Whoopi Goldberg was in Ghost with Demi Moore
+
+Matthew McConaughey and Will Smith have a costar distance of 2
+Matthew McConaughey was in Kubo and the Two Strings with Charlize Theron
+Charlize Theron was in Hancock with Will Smith
+
+Leonardo DiCaprio and Meat Loaf have a costar distance of 4
+Leonardo DiCaprio was in Django Unchained with Jamie Foxx
+Jamie Foxx was in Collateral with Tom Cruise
+Tom Cruise was in Legend with Tim Curry
+Tim Curry was in The Rocky Horror Picture Show with Meat Loaf
+
+Hugh Grant and Keanu Reeves have a costar distance of 4
+Hugh Grant was in Love Actually with Liam Neeson
+Liam Neeson was in The Dark Knight Rises with Michael Caine
+Michael Caine was in Miss Congeniality with Sandra Bullock
+Sandra Bullock was in Speed with Keanu Reeves
+
+Jon Voight and Uma Thurman have a costar distance of 2
+Jon Voight was in Zoolander with Vince Vaughn
+Vince Vaughn was in Be Cool with Uma Thurman
+
+Shia LaBeouf and Nathan Lane have a costar distance of 4
+Shia LaBeouf was in Fury with Brad Pitt
+Brad Pitt was in Ocean’s Eleven with George Clooney
+George Clooney was in Batman & Robin with Uma Thurman
+Uma Thurman was in The Producers with Nathan Lane
+
